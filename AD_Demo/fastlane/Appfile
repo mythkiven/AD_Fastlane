@@ -1,0 +1,10 @@
+
+#  app 的 bundle identifier
+app_identifier "com.3code.ADDemo" 
+
+# 你的 Apple email address
+apple_id "Apple 邮件地址" 
+
+# 开发的 Team ID
+team_id "Team ID"  
+

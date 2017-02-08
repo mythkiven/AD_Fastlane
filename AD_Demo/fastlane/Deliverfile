@@ -1,0 +1,143 @@
+
+
+
+#######################----by https://github.com/mythkiven-#######################
+#######################----by https://github.com/mythkiven-#######################
+
+# 本文件的设置,可以参考官方文档
+# 官方文档:https://github.com/fastlane/fastlane/blob/master/deliver/Deliverfile.md
+# 官方文档:https://github.com/fastlane/fastlane/blob/master/spaceship/docs/iTunesConnect.md
+
+#######################----by https://github.com/mythkiven-#######################
+#######################----by https://github.com/mythkiven-#######################
+
+
+############################# 基本信息 ####################################
+
+
+# 1 app_identifier
+app_identifier "com.3code.ADDemo"
+
+# 2 用户名,Apple ID电子邮件地址
+username "Apple ID电子邮件地址"  
+
+
+# 3 copyright 
+copyright "#{Time.now.year} 3code"
+
+# 4 支持语言
+supportedLanguages = {
+  "cmn-Hans" => "zh-Hans"
+}
+
+# 5 app 名称
+name({
+'zh-Hans' => "ADDemo"
+})
+
+# 6 本地化
+description({
+  'zh-Hans' => "简体中文版"
+})
+
+
+
+# AppStore 信息设置
+# 也可以使用 txt 文本的形式
+
+###################################  类别配置 ###################################
+
+# 类别列表设置参见 https://github.com/fastlane/fastlane/blob/master/deliver/Reference.md
+# 设置 App 的类别.这里可以设置一个主要类别,一个次要类别.
+
+# 主要类别 
+primary_category "Games"
+
+# 主要类别第一个子类别,游戏会有
+primary_first_sub_category "Card"
+# 主要类别第二个子类别,游戏会有
+primary_second_sub_category "Casino"
+
+# 要设置的次要类别 无
+# secondary_category  
+# 设置的次要第一个子类别 无
+# secondary_first_sub_category  
+# 设置的次要第二个子类别 无
+# secondary_second_sub_category
+
+
+
+################################## 关键字\描述等信息 ###################################
+
+# 1 设置 app 检索关键字
+keywords(
+  "zh-Hans" => "mythkiven,mythkiven2"
+)
+
+# 2 网址设置
+support_url({
+  'zh-Hans' => "https://github.com/mythkiven"
+})
+marketing_url({
+  'zh-Hans' => "https://github.com/mythkiven"
+})
+privacy_url({
+  'zh-Hans' => "https://github.com/mythkiven"
+})
+
+# 3 版本描述
+release_notes({
+  'zh-Hans' => "这是第一个版本哦"
+})
+
+# 4 app 描述
+description({
+  'zh-Hans' => "这是一个测试 App"
+})
+
+
+
+
+################################## 分级 ########################################
+
+app_rating_config_path "./fastlane/metadata/itunes_rating_config.json"
+
+
+################################# 提交信息等 #########################################
+
+# 1 提交审核信息:加密, idfa 等
+submission_information({    
+    export_compliance_encryption_updated: false,
+    export_compliance_uses_encryption: false,
+    content_rights_contains_third_party_content: false,
+    add_id_info_uses_idfa: false
+})
+
+# 2 应用审核小组的联系信息 app 审核信息
+app_review_information(
+  first_name: "myth",
+  last_name: "kiven",
+  phone_number: "手机号",
+  email_address: "mythkiven@qq.com",
+  demo_user: "测试账号",
+  demo_password: "测试密码",
+  notes: "No demo account needed"
+)
+
+####################################### 其他信息 ###################################
+
+# 1 自动发布 app: false,则需要手动发布
+automatic_release false
+
+# 2 价格
+price_tier 0
+
+# 3 图标
+app_icon './fastlane/metadata/AppIcon.png'
+
+
+
+
+
+
+

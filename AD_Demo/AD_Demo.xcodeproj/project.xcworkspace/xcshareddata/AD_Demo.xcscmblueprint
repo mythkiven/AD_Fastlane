@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CD74132223D2F2D21B638C19DC987CD1E8B30F5F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CD74132223D2F2D21B638C19DC987CD1E8B30F5F" : 9223372036854775807,
+    "EFFC378D676A8C7D60853A9DC05B16B17EA9AA82" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8A5E74E6-C8BC-4EF5-9C8F-8C095CF2611A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CD74132223D2F2D21B638C19DC987CD1E8B30F5F" : "AD_Fastlane\/",
+    "EFFC378D676A8C7D60853A9DC05B16B17EA9AA82" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AD_Demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AD_Demo\/AD_Demo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mythkiven\/AD_Fastlane.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CD74132223D2F2D21B638C19DC987CD1E8B30F5F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mythkiven\/getFund.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EFFC378D676A8C7D60853A9DC05B16B17EA9AA82"
+    }
+  ]
+}

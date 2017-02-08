@@ -1,0 +1,67 @@
+
+
+
+
+fastlane_version "2.14.2"
+
+default_platform :ios
+
+platform :ios do
+ 
+# 创建证书
+  desc "Creating a code signing certificate and provisioning profile"
+  # 
+  lane :provision do
+    # 
+    produce(
+      app_name: 'AD_Demo',
+      language: 'zh-Hans',
+      app_version: '1.0',
+      sku: 'com.3code.ADDemo.Test'
+    )
+    # 
+    cert
+    # 
+    sigh(force: true)
+  end
+ 
+  error do |lane, exception|
+  # This block is called if there was an error running a lane.
+  end
+
+# 拍照
+  desc "Take screenshots"
+    lane :screenshot do
+      snapshot
+    end
+
+  desc "Create ipa"
+    lane :build do
+      increment_build_number
+      gym
+    end
+
+
+# 提交
+  desc "Upload to App Store and submit for review"
+    lane :upload do
+      deliver(
+        submit_for_review: true
+      )
+    end
+
+# 一键搞定
+  desc "Provision, take screenshots, build and upload to App Store"
+    lane :do_everything do
+      provision
+      screenshot
+      build
+      upload
+    end
+
+  
+end
+
+
+
+

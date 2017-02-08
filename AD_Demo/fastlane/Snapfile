@@ -1,0 +1,19 @@
+
+
+# 图片尺寸
+devices([
+  "iPhone 5",
+  "iPhone 6",
+  "iPhone 6 Plus"
+])
+
+# 语言
+languages([
+  "zh-Hans"
+])
+
+# 储存位置
+output_directory "./fastlane/screenshots"
+
+# 删除以前图片?
+clear_previous_screenshots true
