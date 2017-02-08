@@ -2,9 +2,7 @@
 //  ViewController.swift
 //  AD_Demo
 //
-//  Created by gyjrong on 17/2/7.
-//  Copyright © 2017年 mythkiven. All rights reserved.
-//
+//  https://github.com/mythkiven/AD_Fastlane
 
 import UIKit
 

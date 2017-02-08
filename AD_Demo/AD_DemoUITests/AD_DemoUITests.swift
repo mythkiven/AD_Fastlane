@@ -2,9 +2,7 @@
 //  AD_DemoUITests.swift
 //  AD_DemoUITests
 //
-//  Created by gyjrong on 17/2/7.
-//  Copyright © 2017年 mythkiven. All rights reserved.
-//
+//  https://github.com/mythkiven/AD_Fastlane
 
 import XCTest
 
