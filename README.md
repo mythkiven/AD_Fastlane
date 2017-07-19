@@ -495,7 +495,7 @@ $ fastlane do_everything
 
 - 如果你对 ITC 不了解,或者很少发布 App ,建议看看官方文档,要知道发布 App 也有[官方指南哦](https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide_SCh/Appendices/Properties.html)
 
-- 本文是系列文章,后续文章会陆续在这里以及我的[博客](3code.info)中发布,喜欢请给个✨吧
+- 本文是系列文章,后续文章会陆续在这里以及我的[博客](http://3code.info)中发布,喜欢请给个✨吧
 
 ### 10.参考
 
