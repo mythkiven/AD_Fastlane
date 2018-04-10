@@ -152,8 +152,8 @@ fastlane 的各文件解释如下:
 
 - Appfile:用于存储应用程序标识符和Apple ID 等信息
 - Fastfile:配置管理 lane
-- Deliverfile:配置应用在 ITC 中的各种信息,和 ICC 中的数据是一一对应的
-- metadata:包含应用在 ITC 中的各种信息
+- Deliverfile:将应用在 ITC 中的信息,统一配置在一个Deliverfile文件中，详见2.1
+- metadata:功能同上也是配置应用在ITC中的信息,只不过是独立文本的形式配置的
 - screenshots:包含截图数据
 
 需要注意的是,metadata 和 Deliverfile,都可以配置 ITC 的数据,但后者优先级高.正如下图:
@@ -194,7 +194,7 @@ $ vim copyright.txt
 
 等等,其他信息的修改类似.
 
-然后创建分级文件:itunes_rating_config.json,这个和 ICC 中的分级是对应的.
+然后创建分级文件:itunes_rating_config.json
 
 ``` json
 {"CARTOON_FANTASY_VIOLENCE": 0,
@@ -277,7 +277,7 @@ $ fastlane provision
 fastlane.tools finished successfully 🎉
 ```
 
-打开 ICC 网页,会发现本地的配置,已经成功上传.
+打开 ITC 网页,会发现本地的配置,已经成功上传.
 
 ### 3.Xcode 配置
 
