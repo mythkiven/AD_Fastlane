@@ -1,3 +1,18 @@
+# AD_Fastlane | iOS Fastlane CI/CD Tutorial
+
+One-command iOS deployment guide: build, archive, screenshot, XCTest, and submit to App Store / Pgyer using [Fastlane](https://fastlane.tools).
+
+Keywords: fastlane ios, app store upload, ios ci cd, fastlane tutorial, pgyer upload, xcode automation, continuous deployment
+
+## Quick Start
+
+```bash
+sudo gem install fastlane
+cd your-ios-project && fastlane init
+fastlane release   # your configured lane
+```
+
+---
 
 ## Fastlane 入门实战教程
 
